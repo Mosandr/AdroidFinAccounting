@@ -53,30 +53,34 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/productsBtn"
+                android:id="@+id/categoryBtn1"
                 android:onClick="clickOnCategory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@android:color/holo_red_dark"
 
                 android:text="Продукти" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/categoryBtn2"
+                android:onClick="clickOnCategory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Ресторани" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/categoryBtn3"
+                android:onClick="clickOnCategory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Авто" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/categoryBtn4"
+                android:onClick="clickOnCategory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -89,28 +93,32 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/categoryBtn5"
+                android:onClick="clickOnCategory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Спорт" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/categoryBtn6"
+                android:onClick="clickOnCategory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Транспорт" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/categoryBtn7"
+                android:onClick="clickOnCategory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Житло" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/categoryBtn8"
+                android:onClick="clickOnCategory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -123,28 +131,32 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/categoryBtn9"
+                android:onClick="clickOnCategory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Сім'я" />
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/categoryBtn10"
+                android:onClick="clickOnCategory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Здоров'я" />
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/categoryBtn11"
+                android:onClick="clickOnCategory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Розваги" />
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/categoryBtn12"
+                android:onClick="clickOnCategory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"

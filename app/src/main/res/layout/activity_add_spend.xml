@@ -9,16 +9,8 @@
     >
 
     <TextView
-        android:id="@+id/categoryNameTextView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="2"
-        android:textColor="@android:color/white"
-        android:textSize="24sp"
-        android:background="@android:color/holo_green_dark"/>
-
-    <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/addSumTextView"
+        android:hint="0"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textSize="24sp"
@@ -44,6 +36,7 @@
 
                 <Button
                     android:id="@+id/button13"
+                    android:onClick="onNumberClick"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -51,6 +44,7 @@
 
                 <Button
                     android:id="@+id/button14"
+                    android:onClick="onNumberClick"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -58,6 +52,7 @@
 
                 <Button
                     android:id="@+id/button15"
+                    android:onClick="onNumberClick"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -65,6 +60,7 @@
 
                 <Button
                     android:id="@+id/button16"
+                    android:onClick="onNumberClick"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -85,6 +81,7 @@
 
                 <Button
                     android:id="@+id/button18"
+                    android:onClick="onNumberClick"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -92,6 +89,7 @@
 
                 <Button
                     android:id="@+id/button19"
+                    android:onClick="onNumberClick"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -99,6 +97,7 @@
 
                 <Button
                     android:id="@+id/button20"
+                    android:onClick="onNumberClick"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -119,6 +118,7 @@
 
                 <Button
                     android:id="@+id/button22"
+                    android:onClick="onNumberClick"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -126,6 +126,7 @@
 
                 <Button
                     android:id="@+id/button23"
+                    android:onClick="onNumberClick"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -133,6 +134,7 @@
 
                 <Button
                     android:id="@+id/button24"
+                    android:onClick="onNumberClick"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -160,6 +162,7 @@
 
                 <Button
                     android:id="@+id/button27"
+                    android:onClick="onNumberClick"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -167,10 +170,11 @@
 
                 <Button
                     android:id="@+id/button28"
+                    android:onClick="onFloatClick"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="," />
+                    android:text="." />
             </TableRow>
         </TableLayout>
 
@@ -182,6 +186,7 @@
 
             <Button
                 android:id="@+id/button29"
+                android:onClick="onClickCancel"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
@@ -189,6 +194,7 @@
 
             <Button
                 android:id="@+id/button30"
+                android:onClick="onClickOk"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
