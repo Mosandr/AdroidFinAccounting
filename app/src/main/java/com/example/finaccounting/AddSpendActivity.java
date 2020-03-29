@@ -1,10 +1,14 @@
 package com.example.finaccounting;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -21,8 +25,12 @@ public class AddSpendActivity extends AppCompatActivity {
 
         Intent recivedCategoryIntent = getIntent();
         String category =recivedCategoryIntent.getStringExtra("category");
-        String colour =recivedCategoryIntent.getStringExtra("colour");
+        int colorInt = recivedCategoryIntent.getIntExtra("colorInt", 0);
         setTitle(category);
+
+//        ActionBar actionBar = getSupportActionBar();
+//        actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#c64d4e")));
+
             }
 
     public void onClickCancel(View view) {

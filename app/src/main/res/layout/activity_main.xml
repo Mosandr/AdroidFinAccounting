@@ -54,12 +54,11 @@
 
             <Button
                 android:id="@+id/categoryBtn1"
-                android:onClick="clickOnCategory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/holo_red_dark"
-
+                android:background="@color/colorPrimary"
+                android:onClick="clickOnCategory"
                 android:text="Продукти" />
 
             <Button
